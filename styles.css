@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #DDC5A1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.top-bar {
+    background-color: #EEDEB8;
+    width: 100%;
+    padding: 3px 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    height: 70px;
+}
+
+.right-menu {
+    display: flex;
+    align-items: center;
+}
+
+.order-button {
+    background-color: #EEDEB8;
+    border: none;
+    padding: 10px 20px;
+    color: #333;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 4px;
+    font-weight: bold; /* Texto en negrita */
+    text-align: left;  /* Alineación del texto a la izquierda */
+}
+
+.order-button:hover {
+    background-color: #C4A77D; /* Color diferente para hover del botón de "Pedidos" */
+}
+
+.icon-button {
+    height: 40px;
+    cursor: pointer;
+}
+
+/* Contenedor del botón de regresar, ubicado debajo de la barra superior */
+.back-button-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 150px; /* Asegura espacio debajo de la barra superior */
+}
+
+.back-button {
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+}
+
+.back-icon {
+    position: fixed;
+    top: 100px;
+    left: 20px;
+    background: none;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+}
+
+.container {
+    background-color: #e6d4aa;
+    padding: 45px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left; /* Alineación del texto del contenedor a la izquierda */
+    margin-top: 20px; /* Ajustado para compensar el margen superior */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #6e6e6e;
+    border-radius: 4px;
+    text-align: left; /* Alineación del texto dentro de los inputs a la izquierda */
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+.image-preview img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #6e6e6e;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #181818;
+    border: none;
+    padding: 10px 15px;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+
+button:hover {
+    background-color: #649ae2; /* Color para hover del botón "Agregar Producto" */
+}
+
+
+.recovery-container {
+    width: 90%;
+    max-width: 400px; /* Limita el ancho máximo del contenedor */
+    margin: auto; /* Centra el contenedor en la página */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.recovery-container p {
+    font-size: 14px;
+    line-height: 1.5; /* Espacio entre líneas para mejor legibilidad */
+    margin-bottom: 20px;
+    word-wrap: break-word; /* Permite el salto de línea si es necesario */
+}
+
+.logo_1 {
+    width: 150px; 
+    height: auto; 
+    margin-bottom: 20px; 
+}
+
+
+.recovery-container input[type="email"],
+.recovery-container button {
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 11px; /* Espaciado interno para una mejor apariencia */
+    margin-top: 10px; /* Espaciado entre elementos */
+    box-sizing: border-box; /* Incluye padding y borde en el cálculo del ancho total */
+}
+
+
